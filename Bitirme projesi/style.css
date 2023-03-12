@@ -1,0 +1,91 @@
+ /* paragrafın 10px olması görsellerin güzel durması açısından beni zorladı */
+ h1 {
+    font-family: 'Open Sans';font-size: 16px;
+    color: #2f80ed;
+  
+}
+ h2 {
+    font-family: 'Open Sans';font-size: 11px;
+    color: #f78501;
+    
+ }
+ p {
+    font-family: 'Open Sans';font-size: 10px;
+    color: #000000 ;
+   
+ }
+ /* ortalama */
+
+ .center {
+     margin: auto;
+     width: 20%; 
+     
+    
+}
+.centerB {
+    position: absolute;
+
+     left: 390px;
+    top: 70px;
+}
+/* sağ tarafa taşıma */
+.right {
+    /* float: right; */
+    position: absolute;
+    left: 900px;
+     top: 70px;
+}
+/* sol tarafa taşıma */
+.left {
+    /* float: left; */
+    left:0px;
+    top: 70px;
+
+      }       
+/* sayfanın ortasında sol tarafa taşıma */
+.left2{
+    position: absolute;
+
+     left: 0px;
+    top: 300px;
+}
+/* Sayfa ortasında ortalama */
+.center2{
+    position: absolute;
+
+     left: 390px;
+    top: 300px;
+    /* sayfa orsasında sağ tarafa taşıma */
+}
+.right2{
+    position: absolute;
+
+     left: 900px;
+    top: 300px;
+
+}
+/* sayfa sol alt kısmına taşıma */
+.left3{
+    position: absolute;
+
+     left: 0px;
+    top: 500px;
+}
+/* sayfa orta alt kısmına taşıma */
+.center3{
+    position: absolute;
+
+     left: 390px;
+    top: 500px;
+}
+/* sayfa alt sağ tarafa taşıma */
+.right3{
+    position: absolute;
+
+     left: 900px;
+    top: 500px;
+
+}
+.f{
+    font-size: larger;
+}
